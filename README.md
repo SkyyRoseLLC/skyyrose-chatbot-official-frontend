@@ -25,6 +25,32 @@ You can deploy this frontend to platforms like:
 ---
 
 ## 📁 Folder Structure
+skyyrose-chatbot-official-frontend/
+├── index.html # Main HTML entry point
+├── style.css # UI styling
+├── script.js # Chat logic (calls backend)
+└── assets/
+└── skyyrose-avatar.png # Your AI avatar image
+
+---
+
+## ⚙️ How It Works
+
+This frontend sends user messages to a backend API hosted at:
+
+https://skyyrose-backend-official.onrender.com/chat
+
+The backend responds with a reply, which is displayed along with the Skyy Rose avatar.
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/SkyyRoseLLC/skyyrose-chatbot-official-frontend.git
+cd skyyrose-chatbot-official-frontend
 
 
 
